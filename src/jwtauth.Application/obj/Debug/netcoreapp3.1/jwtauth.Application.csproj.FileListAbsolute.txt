@@ -1,0 +1,4 @@
+C:\DTI\spike\jwt-auth\src\jwtauth.Application\bin\Debug\netcoreapp3.1\jwtauth.Domain.dll
+C:\DTI\spike\jwt-auth\src\jwtauth.Application\obj\Debug\netcoreapp3.1\jwtauth.Application.csprojAssemblyReference.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.Application\obj\Debug\netcoreapp3.1\jwtauth.Application.AssemblyInfoInputs.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.Application\obj\Debug\netcoreapp3.1\jwtauth.Application.AssemblyInfo.cs

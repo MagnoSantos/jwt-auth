@@ -1,0 +1,10 @@
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\bin\Debug\netcoreapp3.1\jwtauth.API.exe
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\jwtauth.API.csprojAssemblyReference.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\jwtauth.API.AssemblyInfoInputs.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\jwtauth.API.AssemblyInfo.cs
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\jwtauth.API.RazorTargetAssemblyInfo.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\staticwebassets\jwtauth.API.StaticWebAssets.Manifest.cache
+C:\DTI\spike\jwt-auth\src\jwtauth.API\jwtauth.API\obj\Debug\netcoreapp3.1\staticwebassets\jwtauth.API.StaticWebAssets.xml
