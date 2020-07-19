@@ -29,25 +29,7 @@ namespace jwtauth.API
             services.ConfigureComponents();
             services.ConfigureOptions(Configuration);
 
-            var chave = Configuration.GetValue<string>("AppConfig:ChavePrivada");
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(chave)),
-                    ValidateIssuer = false,
-                    ValidateAudience = false
-                };
-            });
-
+            ConfigurarAutenticacao(services);
             ConfigurarSwagger(services);
         }
 
@@ -59,19 +41,21 @@ namespace jwtauth.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
+
+            app.UseSwagger();
+
             app.UseSwaggerUI(swagger =>
             {
                 swagger.SwaggerEndpoint("/swagger/v1/swagger.json", "Auth JWT API");
                 swagger.RoutePrefix = string.Empty;
             });
-
-            app.UseSwagger();
-
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
@@ -94,7 +78,7 @@ namespace jwtauth.API
                 //Autenticação
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
-                    Description = "Cabeçalho de autorização JWT usando o esquema Bearer. Exemplo: \"Authorization: Bearer {token}\"",
+                    Description = "Cabeçalho de autorização JWT usando o esquema Bearer. Exemplo: \"Bearer {token}\"",
                     Name = "Authorization",
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
@@ -112,6 +96,28 @@ namespace jwtauth.API
                         new List<string>()
                     }
                 });
+            });
+        }
+
+        private void ConfigurarAutenticacao(IServiceCollection services)
+        {
+            var chave = Encoding.ASCII.GetBytes(Configuration.GetValue<string>("AppConfig:ChavePrivada"));
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(chave),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
             });
         }
     }
