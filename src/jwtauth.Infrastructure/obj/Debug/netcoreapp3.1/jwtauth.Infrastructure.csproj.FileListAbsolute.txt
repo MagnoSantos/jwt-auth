@@ -1,0 +1,14 @@
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Infrastructure.deps.json
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Infrastructure.dll
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.csprojAssemblyReference.cache
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.AssemblyInfoInputs.cache
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.AssemblyInfo.cs
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Application.dll
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Domain.dll
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Infrastructure.pdb
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Application.pdb
+C:\study\jwt-auth\src\jwtauth.Infrastructure\bin\Debug\netcoreapp3.1\jwtauth.Domain.pdb
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.csproj.CoreCompileInputs.cache
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.csproj.CopyComplete
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.dll
+C:\study\jwt-auth\src\jwtauth.Infrastructure\obj\Debug\netcoreapp3.1\jwtauth.Infrastructure.pdb

@@ -1,15 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using jwtauth.Infrastructure.CrossCutting;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Collections.Generic;
+using System.Text;
 
 namespace jwtauth.API
 {
@@ -26,6 +25,30 @@ namespace jwtauth.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.ConfigureComponents();
+            services.ConfigureOptions(Configuration);
+
+            var chave = Configuration.GetValue<string>("AppConfig:ChavePrivada");
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(chave)),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+            ConfigurarSwagger(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +59,14 @@ namespace jwtauth.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSwaggerUI(swagger =>
+            {
+                swagger.SwaggerEndpoint("/swagger/v1/swagger.json", "Auth JWT API");
+                swagger.RoutePrefix = string.Empty;
+            });
+
+            app.UseSwagger();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -45,6 +76,42 @@ namespace jwtauth.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+        }
+
+        private static void ConfigurarSwagger(IServiceCollection services)
+        {
+            services.AddSwaggerGen(c =>
+            {
+                //Documentação
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Auth JWT API",
+                    Description = "API para KT Promovendo Segurança nas Aplicações",
+                    Version = "v1"
+                });
+
+                //Autenticação
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Cabeçalho de autorização JWT usando o esquema Bearer. Exemplo: \"Authorization: Bearer {token}\"",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+                {
+                        new OpenApiSecurityScheme{
+                            Reference = new OpenApiReference{
+                                Id = "Bearer",
+                                Type = ReferenceType.SecurityScheme
+                            }
+                        },
+                        new List<string>()
+                    }
+                });
             });
         }
     }

@@ -4,6 +4,6 @@ namespace jwtauth.Application.Services
 {
     public interface ITokenService
     {
-        Task<string> Gerar(string nome, string funcao);
+        Task<string> Gerar(string login, string funcao);
     }
 }

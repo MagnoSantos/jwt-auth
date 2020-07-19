@@ -3,3 +3,12 @@ C:\DTI\spike\jwt-auth\src\jwtauth.Domain\bin\Debug\netcoreapp3.1\jwtauth.Domain.
 C:\DTI\spike\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.csprojAssemblyReference.cache
 C:\DTI\spike\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.AssemblyInfoInputs.cache
 C:\DTI\spike\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.AssemblyInfo.cs
+C:\study\jwt-auth\src\jwtauth.Domain\bin\Debug\netcoreapp3.1\jwtauth.Domain.deps.json
+C:\study\jwt-auth\src\jwtauth.Domain\bin\Debug\netcoreapp3.1\jwtauth.Domain.dll
+C:\study\jwt-auth\src\jwtauth.Domain\bin\Debug\netcoreapp3.1\jwtauth.Domain.pdb
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.csprojAssemblyReference.cache
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.AssemblyInfoInputs.cache
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.AssemblyInfo.cs
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.csproj.CoreCompileInputs.cache
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.dll
+C:\study\jwt-auth\src\jwtauth.Domain\obj\Debug\netcoreapp3.1\jwtauth.Domain.pdb

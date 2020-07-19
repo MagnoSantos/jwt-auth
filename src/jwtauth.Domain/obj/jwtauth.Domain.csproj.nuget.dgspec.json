@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DTI\\spike\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {}
+    "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {}
   },
   "projects": {
-    "C:\\DTI\\spike\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
+    "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DTI\\spike\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
+        "projectUniqueName": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
         "projectName": "jwtauth.Domain",
-        "projectPath": "C:\\DTI\\spike\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\DTI\\spike\\jwt-auth\\src\\jwtauth.Domain\\obj\\",
+        "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
+        "packagesPath": "C:\\Users\\magno\\.nuget\\packages\\",
+        "outputPath": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\magno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
