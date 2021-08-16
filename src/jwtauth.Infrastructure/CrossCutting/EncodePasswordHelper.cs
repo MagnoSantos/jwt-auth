@@ -1,4 +1,5 @@
 ﻿using jwtauth.Domain.Entities;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
@@ -6,25 +7,25 @@ namespace jwtauth.Infrastructure.CrossCutting
 {
     public class EncodePasswordHelper : IEncodePasswordHelper
     {
-        private int _byteLength = 160 / 8;
+        private readonly int _byteLength = 160 / 8;
+        private readonly int _iterations = 1000;
 
-        public Task<EncodedPassword> Encode(string senha, int iterations)
+        public Task<EncodedPassword> Encode(string senha)
         {
             var populatedPassword = new EncodedPassword
             {
                 Salt = CreateSalt(),
-                Iterations = iterations
             };
 
-            populatedPassword.Hash = CreateHash(senha, populatedPassword.Salt, iterations);
+            populatedPassword.Hash = CreateHash(senha, populatedPassword.Salt);
             return Task.FromResult(populatedPassword);
         }
 
         public Task<bool> Valid(string password, EncodedPassword encodedPassword)
         {
-            var test = CreateHash(password, encodedPassword.Salt, encodedPassword.Iterations);
+            var testHash = CreateHash(password, encodedPassword.Salt);
 
-            return Task.FromResult(test == encodedPassword.Hash);
+            return Task.FromResult(testHash.SequenceEqual(encodedPassword.Hash));
         }
 
         private byte[] CreateSalt()
@@ -37,9 +38,9 @@ namespace jwtauth.Infrastructure.CrossCutting
             return salt;
         }
 
-        private byte[] CreateHash(string senha, byte[] salt, long iterations)
+        private byte[] CreateHash(string senha, byte[] salt)
         {
-            using var hashGenerator = new Rfc2898DeriveBytes(senha, salt, (int)iterations);
+            using var hashGenerator = new Rfc2898DeriveBytes(senha, salt, _iterations);
             return hashGenerator.GetBytes(_byteLength);
         }
     }

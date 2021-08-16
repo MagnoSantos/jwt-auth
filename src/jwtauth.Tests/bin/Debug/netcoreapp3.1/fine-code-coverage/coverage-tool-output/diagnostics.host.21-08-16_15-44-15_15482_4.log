@@ -1,0 +1,181 @@
+TpTrace Verbose: 0 : 22976, 1, 2021/08/16, 15:44:15.305, 1031517921782, testhost.dll, Version: 16.9.4
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.311, 1031517967078, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 53764],[--endpoint, 127.0.0.1:053764],[--role, client],[--parentprocessid, 22620],[--diag, C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.host.21-08-16_15-44-15_15482_4.log],[--tracelevel, 4],[--datacollectionport, 53763],[--telemetryoptedin, false]
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.312, 1031517984338, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 22976, 1, 2021/08/16, 15:44:15.313, 1031517986742, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 22976, 1, 2021/08/16, 15:44:15.313, 1031517987373, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.313, 1031517990515, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '22620'
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.319, 1031518052005, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:053764'
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.335, 1031518215263, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:053764
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.340, 1031518261094, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 53763
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.343, 1031518288627, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:053764
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.344, 1031518298310, testhost.dll, Trying to connect to server on socket : 127.0.0.1:53763 
+TpTrace Verbose: 0 : 22976, 1, 2021/08/16, 15:44:15.344, 1031518303562, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.345, 1031518312839, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 22976, 9, 2021/08/16, 15:44:15.346, 1031518324991, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 22976, 9, 2021/08/16, 15:44:15.347, 1031518326310, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:15.347, 1031518331298, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 22976, 13, 2021/08/16, 15:44:15.348, 1031518338416, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.348, 1031518343873, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.349, 1031518346540, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.471, 1031519569689, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.501, 1031519869129, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Registro em log do diagnóstico TestHost no arquivo: C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.21-08-16_15-44-15_15482_4.log"}}
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.501, 1031519874278, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.502, 1031519876988, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.505, 1031519910299, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.505, 1031519911308, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.511, 1031519975494, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.512, 1031519976602, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.514, 1031519997118, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.514, 1031520000810, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\jwtauth.Tests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.302\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:15.514, 1031520001708, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.515, 1031520012567, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.516, 1031520021361, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.517, 1031520026298, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.517, 1031520027224, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.520, 1031520062096, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.522, 1031520080905, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.522, 1031520082229, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.522, 1031520082699, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.522, 1031520083019, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.522, 1031520083637, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.523, 1031520091578, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.528, 1031520142943, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.530, 1031520163561, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.534, 1031520205397, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.535, 1031520213279, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.540, 1031520259896, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.540, 1031520263885, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.540, 1031520264611, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.540, 1031520265320, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.540, 1031520265936, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.541, 1031520266668, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:15.541, 1031520268773, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520299436, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520302144, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520302711, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520303044, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520305066, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520305757, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.544, 1031520306116, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520306408, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520306696, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520307064, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520307494, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520310218, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520310664, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520311129, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520311743, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520312084, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.545, 1031520312356, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.549, 1031520352302, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.549, 1031520354041, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.549, 1031520354502, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520362282, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520363366, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520363811, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520364190, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520365428, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.550, 1031520365939, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520366263, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520366558, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520366884, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520367212, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520367641, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520370239, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520370690, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520371001, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520371291, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520371680, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.551, 1031520371975, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.552, 1031520380543, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.552, 1031520381190, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.637, 1031521231322, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\jwtauth.Tests.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521251290, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521252439, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521253070, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521253392, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521254636, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521255071, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521255497, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521255842, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.639, 1031521256134, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.640, 1031521256447, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.640, 1031521256902, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.642, 1031521285414, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.643, 1031521287938, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Failed to load assembly.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.643, 1031521293502, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.643, 1031521295168, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.643, 1031521295949, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.644, 1031521296616, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.644, 1031521297266, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.645, 1031521308661, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.645, 1031521312575, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.645, 1031521313272, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.645, 1031521313874, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.645, 1031521314532, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521327579, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521328453, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521328832, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521329149, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521329430, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.647, 1031521329748, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.654, 1031521401647, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\jwtauth.Tests.dll'
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.660, 1031521460819, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:15.664, 1031521503417, testhost.dll, [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.17)
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:15.664, 1031521504613, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.17)"}}
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.036, 1031525217673, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.037, 1031525226422, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.reporters.netcoreapp10, from path: C:\dti\jwt-auth\src\jwtauth.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.109, 1031525951376, testhost.dll, [xUnit.net 00:00:00.44]   Discovering: jwtauth.Tests
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.110, 1031525957105, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.44]   Discovering: jwtauth.Tests"}}
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.148, 1031526345392, testhost.dll, [xUnit.net 00:00:00.48]   Discovered:  jwtauth.Tests
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.149, 1031526346731, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.48]   Discovered:  jwtauth.Tests"}}
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.152, 1031526381542, testhost.dll, [xUnit.net 00:00:00.49]   Starting:    jwtauth.Tests
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.152, 1031526383185, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.49]   Starting:    jwtauth.Tests"}}
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.210, 1031526960971, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso.
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.243, 1031527294894, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso.
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.260, 1031527457118, testhost.dll, TestExecutionRecorder.RecordEnd: test: jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso execution completed.
+TpTrace Warning: 0 : 22976, 16, 2021/08/16, 15:44:16.260, 1031527458631, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.260, 1031527459558, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso.
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.261, 1031527469551, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso.
+TpTrace Verbose: 0 : 22976, 16, 2021/08/16, 15:44:16.262, 1031527477056, testhost.dll, TestExecutionRecorder.RecordEnd: test: jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso execution completed.
+TpTrace Warning: 0 : 22976, 16, 2021/08/16, 15:44:16.262, 1031527477569, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.263, 1031527486330, testhost.dll, [xUnit.net 00:00:00.60]   Finished:    jwtauth.Tests
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.263, 1031527487206, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.60]   Finished:    jwtauth.Tests"}}
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.267, 1031527527948, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 22976, 4, 2021/08/16, 15:44:16.271, 1031527573674, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.310, 1031527956939, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Passed":2}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.6114739","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"dc683453-c45c-8e0d-20df-e483cbd3eb61","FullyQualifiedName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso","DisplayName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\jwtauth.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePassword_Sucesso","Messages":[],"ComputerName":"DPCMAGNOSANTOS","Duration":"00:00:00.0077859","StartTime":"2021-08-16T18:44:16.2433406+00:00","EndTime":"2021-08-16T18:44:16.2434202+00:00","Properties":[]},{"TestCase":{"Id":"0ad17d22-fbca-7cdb-5487-62f8029167e2","FullyQualifiedName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso","DisplayName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\jwtauth.Tests.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"jwtauth.Tests.EncodePasswordHelperTests.EncodePasswordValidade_Sucesso","Messages":[],"ComputerName":"DPCMAGNOSANTOS","Duration":"00:00:00.0045557","StartTime":"2021-08-16T18:44:16.2613062+00:00","EndTime":"2021-08-16T18:44:16.261308+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Passed":2}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+TpTrace Verbose: 0 : 22976, 4, 2021/08/16, 15:44:16.310, 1031527963607, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031527996307, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031527998109, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031527998546, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031528001554, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:053764
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031528001995, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031528002823, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031528003286, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 22976, 8, 2021/08/16, 15:44:16.314, 1031528004860, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:053764, error:
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:16.315, 1031528006576, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 22976, 8, 2021/08/16, 15:44:16.315, 1031528007216, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:53764 localEndPoint: [::ffff:127.0.0.1]:53765
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:16.315, 1031528006600, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:16.315, 1031528008212, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:053764
+TpTrace Verbose: 0 : 22976, 1, 2021/08/16, 15:44:16.315, 1031528008592, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 22976, 1, 2021/08/16, 15:44:16.315, 1031528009387, testhost.dll, Testhost process exiting.

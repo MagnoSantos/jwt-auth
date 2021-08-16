@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtauth.API", "jwtauth.API\jwtauth.API.csproj", "{5A1DFAAD-EA74-4BC1-B55C-4C4A6E7EE777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jwtauth.API", "jwtauth.API\jwtauth.API.csproj", "{5A1DFAAD-EA74-4BC1-B55C-4C4A6E7EE777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtauth.Domain", "..\jwtauth.Domain\jwtauth.Domain.csproj", "{9D1D70AF-91D6-4F7E-8BA6-DF8D5C375980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jwtauth.Domain", "..\jwtauth.Domain\jwtauth.Domain.csproj", "{9D1D70AF-91D6-4F7E-8BA6-DF8D5C375980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtauth.Infrastructure", "..\jwtauth.Infrastructure\jwtauth.Infrastructure.csproj", "{676ABBCE-C3E7-442E-8BE3-AFF541A7C69E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jwtauth.Infrastructure", "..\jwtauth.Infrastructure\jwtauth.Infrastructure.csproj", "{676ABBCE-C3E7-442E-8BE3-AFF541A7C69E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtauth.Application", "..\jwtauth.Application\jwtauth.Application.csproj", "{789A32DC-01BE-453A-8978-9F5DEBE88CC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jwtauth.Application", "..\jwtauth.Application\jwtauth.Application.csproj", "{789A32DC-01BE-453A-8978-9F5DEBE88CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtauth.Tests", "..\jwtauth.Tests\jwtauth.Tests.csproj", "{17B07293-2B0C-4A49-9E59-252358EE89BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{789A32DC-01BE-453A-8978-9F5DEBE88CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789A32DC-01BE-453A-8978-9F5DEBE88CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789A32DC-01BE-453A-8978-9F5DEBE88CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B07293-2B0C-4A49-9E59-252358EE89BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B07293-2B0C-4A49-9E59-252358EE89BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B07293-2B0C-4A49-9E59-252358EE89BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B07293-2B0C-4A49-9E59-252358EE89BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

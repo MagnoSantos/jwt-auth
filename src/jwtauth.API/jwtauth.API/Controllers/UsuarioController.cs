@@ -48,8 +48,9 @@ namespace jwtauth.API.Controllers
 
         [HttpPost]
         [Route("hash/validar")]
-        public async Task<IActionResult> ValidatePassword(string senha, [FromBody] EncodedPassword encodedPassword)
+        public async Task<IActionResult> ValidatePassword(string senha, EncodedPassword encodedPassword)
         {
+
             return Ok(await _encodePasswordHelper.Valid(senha, encodedPassword));
         }
     }
