@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Net.Mime;
 using System.Threading.Tasks;
+using jwtauth.Infrastructure.CrossCutting;
+using jwtauth.Domain.Entities;
 
 namespace jwtauth.API.Controllers
 {
@@ -15,10 +17,12 @@ namespace jwtauth.API.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
+        private readonly IEncodePasswordHelper _encodePasswordHelper;
 
-        public UsuarioController(IUsuarioService usuarioService)
+        public UsuarioController(IUsuarioService usuarioService, IEncodePasswordHelper encodePasswordHelper)
         {
             _usuarioService = usuarioService;
+            _encodePasswordHelper = encodePasswordHelper;
         }
 
         [HttpPost]
@@ -32,6 +36,21 @@ namespace jwtauth.API.Controllers
                 new Uri(Request.GetEncodedUrl()), 
                 usuario
             );
+        }
+
+        [HttpGet]
+        [Route("hash/gerar")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<IActionResult> EncodePassword(string senha)
+        {
+            return Ok(await _encodePasswordHelper.Encode(senha));
+        }
+
+        [HttpPost]
+        [Route("hash/validar")]
+        public async Task<IActionResult> ValidatePassword(string senha, [FromBody] EncodedPassword encodedPassword)
+        {
+            return Ok(await _encodePasswordHelper.Valid(senha, encodedPassword));
         }
     }
 }
