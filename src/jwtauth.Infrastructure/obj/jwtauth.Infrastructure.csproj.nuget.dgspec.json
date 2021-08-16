@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\study\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj": {}
+    "C:\\dti\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\study\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj": {
+    "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\study\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj",
+        "projectUniqueName": "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj",
         "projectName": "jwtauth.Application",
-        "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj",
+        "projectPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj",
         "packagesPath": "C:\\Users\\magno\\.nuget\\packages\\",
-        "outputPath": "C:\\study\\jwt-auth\\src\\jwtauth.Application\\obj\\",
+        "outputPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\magno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
-                "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj"
+              "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
+                "projectPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj"
               }
             }
           }
@@ -46,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Options": {
               "target": "Package",
@@ -70,38 +67,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
+    "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
+        "projectUniqueName": "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
         "projectName": "jwtauth.Domain",
-        "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
+        "projectPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\jwtauth.Domain.csproj",
         "packagesPath": "C:\\Users\\magno\\.nuget\\packages\\",
-        "outputPath": "C:\\study\\jwt-auth\\src\\jwtauth.Domain\\obj\\",
+        "outputPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\magno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -112,6 +98,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -123,6 +110,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
@@ -139,38 +127,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\study\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj": {
+    "C:\\dti\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\study\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj",
+        "projectUniqueName": "C:\\dti\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj",
         "projectName": "jwtauth.Infrastructure",
-        "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj",
+        "projectPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Infrastructure\\jwtauth.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\magno\\.nuget\\packages\\",
-        "outputPath": "C:\\study\\jwt-auth\\src\\jwtauth.Infrastructure\\obj\\",
+        "outputPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\magno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -181,9 +158,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\study\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj": {
-                "projectPath": "C:\\study\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj"
+              "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj": {
+                "projectPath": "C:\\dti\\jwt-auth\\src\\jwtauth.Application\\jwtauth.Application.csproj"
               }
             }
           }
@@ -196,6 +174,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -228,18 +207,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

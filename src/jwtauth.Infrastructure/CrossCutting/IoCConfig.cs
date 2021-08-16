@@ -21,6 +21,7 @@ namespace jwtauth.Infrastructure.CrossCutting
             services.AddTransient<ITokenService, TokenService>();
             services.AddTransient<IUsuarioService, UsuarioService>();
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IEncodePasswordHelper, EncodePasswordHelper>();
 
             services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase("JwtAuth"));
             //Toda vez que for solicitado, cria inicialmente em memória e reutiliza. 
