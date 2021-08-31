@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.28" branch-rate="0" lines-covered="42" lines-valid="150" branches-covered="0" branches-valid="2" complexity="34" version="0" timestamp="1629128657">
+<coverage line-rate="0.3167701863354037" branch-rate="0" lines-covered="51" lines-valid="161" branches-covered="0" branches-valid="2" complexity="36" version="0" timestamp="1629883333">
   <sources>
     <source>C:\</source>
   </sources>
@@ -179,18 +179,18 @@
           <methods>
             <method name="get_Hash" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="3" branch="false" />
+                <line number="5" hits="4" branch="false" />
               </lines>
             </method>
             <method name="get_Salt" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="5" branch="false" />
+                <line number="6" hits="7" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="3" branch="false" />
-            <line number="6" hits="5" branch="false" />
+            <line number="5" hits="4" branch="false" />
+            <line number="6" hits="7" branch="false" />
           </lines>
         </class>
         <class name="jwtauth.Domain.Entities.EntityBase" filename="C:\dti\jwt-auth\src\jwtauth.Domain\Entities\EntityBase.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -297,8 +297,8 @@
             </method>
             <method name="Valid" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="1" branch="false" />
-                <line number="26" hits="1" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
                 <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
               </lines>
@@ -315,22 +315,22 @@
             </method>
             <method name="CreateHash" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="42" hits="3" branch="false" />
-                <line number="43" hits="3" branch="false" />
+                <line number="42" hits="4" branch="false" />
+                <line number="43" hits="4" branch="false" />
                 <line number="44" hits="3" branch="false" />
                 <line number="45" hits="3" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="2" branch="false" />
-                <line number="11" hits="2" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="11" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="2" branch="false" />
-            <line number="11" hits="2" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
             <line number="14" hits="2" branch="false" />
             <line number="15" hits="2" branch="false" />
             <line number="16" hits="2" branch="false" />
@@ -339,8 +339,8 @@
             <line number="20" hits="2" branch="false" />
             <line number="21" hits="2" branch="false" />
             <line number="22" hits="2" branch="false" />
-            <line number="25" hits="1" branch="false" />
-            <line number="26" hits="1" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
             <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="32" hits="2" branch="false" />
@@ -349,8 +349,8 @@
             <line number="36" hits="2" branch="false" />
             <line number="38" hits="2" branch="false" />
             <line number="39" hits="2" branch="false" />
-            <line number="42" hits="3" branch="false" />
-            <line number="43" hits="3" branch="false" />
+            <line number="42" hits="4" branch="false" />
+            <line number="43" hits="4" branch="false" />
             <line number="44" hits="3" branch="false" />
             <line number="45" hits="3" branch="false" />
           </lines>
@@ -465,7 +465,7 @@
         </class>
       </classes>
     </package>
-    <package name="jwtauth.Tests" line-rate="0.9411764705882353" branch-rate="1" complexity="4">
+    <package name="jwtauth.Tests" line-rate="0.8928571428571429" branch-rate="1" complexity="6">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\magno\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -479,52 +479,84 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="jwtauth.Tests.EncodePasswordHelperTests" filename="C:\dti\jwt-auth\src\jwtauth.Tests\EncodePasswordHelperTests.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="jwtauth.Tests.EncodePasswordHelperTests" filename="C:\dti\jwt-auth\src\jwtauth.Tests\EncodePasswordHelperTests.cs" line-rate="0.9259259259259259" branch-rate="1" complexity="5">
           <methods>
             <method name="Instanciar" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="36" hits="2" branch="false" />
-                <line number="37" hits="2" branch="false" />
+                <line number="54" hits="3" branch="false" />
+                <line number="55" hits="3" branch="false" />
+                <line number="56" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="false" />
+                <line number="14" hits="3" branch="false" />
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
               </lines>
             </method>
             <method name="EncodePassword_Sucesso" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="1" branch="false" />
-                <line number="14" hits="1" branch="false" />
-                <line number="15" hits="1" branch="false" />
-                <line number="17" hits="1" branch="false" />
-                <line number="19" hits="1" branch="false" />
                 <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
               </lines>
             </method>
             <method name="EncodePasswordValidade_Sucesso" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="1" branch="false" />
-                <line number="25" hits="1" branch="false" />
-                <line number="26" hits="1" branch="false" />
-                <line number="28" hits="1" branch="false" />
-                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
                 <line number="32" hits="1" branch="false" />
                 <line number="33" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="EncodePasswordValidate_Falha" signature="()" line-rate="0.7142857142857143" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="1" branch="false" />
-            <line number="14" hits="1" branch="false" />
-            <line number="15" hits="1" branch="false" />
-            <line number="17" hits="1" branch="false" />
-            <line number="19" hits="1" branch="false" />
+            <line number="13" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
             <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
             <line number="24" hits="1" branch="false" />
-            <line number="25" hits="1" branch="false" />
             <line number="26" hits="1" branch="false" />
-            <line number="28" hits="1" branch="false" />
-            <line number="30" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
             <line number="33" hits="1" branch="false" />
-            <line number="36" hits="2" branch="false" />
-            <line number="37" hits="2" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="54" hits="3" branch="false" />
+            <line number="55" hits="3" branch="false" />
+            <line number="56" hits="3" branch="false" />
           </lines>
         </class>
       </classes>

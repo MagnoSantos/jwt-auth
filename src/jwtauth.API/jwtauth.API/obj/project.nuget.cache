@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2thrGyjU0npySDcmQP2oVXUNTN2/oRcHOzYmQ/GU7W1fP21zW9uQxYPt9gk499vmFUzbtDSDZyRzocbz5frfhw==",
+  "dgSpecHash": "3XGrpJctkf6LQfhFbGcADZqOxSTuy51kBVaNkLm56I9Fb1EFZpDOCkGAhP1iBsMIMmUH6rvrGogWAbZ1EcLCLg==",
   "success": true,
   "projectFilePath": "C:\\dti\\jwt-auth\\src\\jwtauth.API\\jwtauth.API\\jwtauth.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
+    "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.18\\microsoft.aspnetcore.authentication.jwtbearer.3.1.18.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -1,3 +1,5 @@
+using AutoFixture;
+using jwtauth.Domain.Entities;
 using jwtauth.Infrastructure.CrossCutting;
 using System.Threading.Tasks;
 using Xunit;
@@ -6,6 +8,13 @@ namespace jwtauth.Tests
 {
     public class EncodePasswordHelperTests
     {
+        private readonly IFixture _fixture;
+
+        public EncodePasswordHelperTests()
+        {
+            _fixture = new Fixture();
+        }
+
         [Fact]
         public async Task EncodePassword_Sucesso()
         {

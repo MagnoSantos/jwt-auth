@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fKrquG1DGfp+yGiV70dyUPNYqVXl/kHoNZ/fdItSbN/z+/hktiPrzoM1GrnYpzBGRYZHf7bHcgGfdUPAn6Qp7A==",
+  "dgSpecHash": "Lt+buU0lf+hie3kAA8IG+XLt3WidDonXrC+yTX0Qb5agCJwmP750prclFasIYvy4sW+Z9JyZZdfFc4aV7tvB3g==",
   "success": true,
   "projectFilePath": "C:\\dti\\jwt-auth\\src\\jwtauth.Tests\\jwtauth.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\magno\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
+    "C:\\Users\\magno\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",
     "C:\\Users\\magno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
